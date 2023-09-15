@@ -1,0 +1,121 @@
+\hypertarget{classICharacter}{}\doxysection{ICharacter Class Reference}
+\label{classICharacter}\index{ICharacter@{ICharacter}}
+
+
+Inheritance diagram for ICharacter\+:
+% FIG 0
+
+
+Collaboration diagram for ICharacter\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classICharacter_a86ff3875c1778b236c82fda8a3f84097}\label{classICharacter_a86ff3875c1778b236c82fda8a3f84097}} 
+{\bfseries ICharacter} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classIRace}{IRace}} $>$ race, string name)
+\item 
+\mbox{\Hypertarget{classICharacter_a05bacd00b3c1a76d9244129f7cebc3f8}\label{classICharacter_a05bacd00b3c1a76d9244129f7cebc3f8}} 
+virtual int {\bfseries Get\+Hit\+Points} ()=0
+\item 
+\mbox{\Hypertarget{classICharacter_ae76875afaf149827529168533068ef6d}\label{classICharacter_ae76875afaf149827529168533068ef6d}} 
+virtual int {\bfseries Get\+Amour\+Class} ()=0
+\item 
+\mbox{\Hypertarget{classICharacter_a90da1812805d6ab52312c745967c79a6}\label{classICharacter_a90da1812805d6ab52312c745967c79a6}} 
+virtual int {\bfseries Get\+Initiative} ()=0
+\item 
+\mbox{\Hypertarget{classICharacter_a0e84a78c241e26aa6693a1b58ec1f472}\label{classICharacter_a0e84a78c241e26aa6693a1b58ec1f472}} 
+virtual void {\bfseries Set\+Party} (string party)=0
+\item 
+\mbox{\Hypertarget{classICharacter_a279696793cf6a54d838efd0ff0bd18c3}\label{classICharacter_a279696793cf6a54d838efd0ff0bd18c3}} 
+virtual string {\bfseries Get\+Party} ()=0
+\item 
+\mbox{\Hypertarget{classICharacter_a45cc58c59912f4fea22ebdb361ec02e9}\label{classICharacter_a45cc58c59912f4fea22ebdb361ec02e9}} 
+virtual void {\bfseries Set\+Name} (string name)=0
+\item 
+\mbox{\Hypertarget{classICharacter_ab8a318605a805a33066f1e964c757090}\label{classICharacter_ab8a318605a805a33066f1e964c757090}} 
+virtual string {\bfseries Get\+Name} ()=0
+\item 
+\mbox{\Hypertarget{classICharacter_a7e5febb49974422a7f9cf725a9724e67}\label{classICharacter_a7e5febb49974422a7f9cf725a9724e67}} 
+virtual int {\bfseries Attack\+Damage} (int weapon\+Slot)=0
+\item 
+\mbox{\Hypertarget{classICharacter_ae38f026a173c5340202f26db608269ad}\label{classICharacter_ae38f026a173c5340202f26db608269ad}} 
+virtual int {\bfseries Attack\+Player} (int weapon\+Slot, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classICharacter}{ICharacter}} $>$ target)=0
+\item 
+\mbox{\Hypertarget{classICharacter_a1fe02a71e39bcb4ed92c2ca2967aea15}\label{classICharacter_a1fe02a71e39bcb4ed92c2ca2967aea15}} 
+virtual void {\bfseries Take\+Damage} (int damage)=0
+\item 
+\mbox{\Hypertarget{classICharacter_aca46338fae0cbdcb3f23e68cc5643dd1}\label{classICharacter_aca46338fae0cbdcb3f23e68cc5643dd1}} 
+virtual int {\bfseries Attack\+Roll} ()=0
+\item 
+\mbox{\Hypertarget{classICharacter_a99c67786e3706324e167a0bdbf58ecf2}\label{classICharacter_a99c67786e3706324e167a0bdbf58ecf2}} 
+void {\bfseries Print\+Inventory} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classIItem}{IItem}} $>$)
+\item 
+\mbox{\Hypertarget{classICharacter_a7068da2bd6306984778eed9f2b434f25}\label{classICharacter_a7068da2bd6306984778eed9f2b434f25}} 
+void {\bfseries Add\+Item\+To\+Inventory} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classIItem}{IItem}} $>$)
+\item 
+\mbox{\Hypertarget{classICharacter_a23ee8338ff4111e7e9b1078496800b13}\label{classICharacter_a23ee8338ff4111e7e9b1078496800b13}} 
+void {\bfseries Remove\+Item\+From\+Inventory} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classIItem}{IItem}} $>$)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classICharacter_ae50d336f4d9da4d2b1b4dfd7e68203d1}\label{classICharacter_ae50d336f4d9da4d2b1b4dfd7e68203d1}} 
+int {\bfseries c\+\_\+hit\+Points}
+\item 
+\mbox{\Hypertarget{classICharacter_a29c9a4628203a18ddc9d59dc6699a29f}\label{classICharacter_a29c9a4628203a18ddc9d59dc6699a29f}} 
+int {\bfseries c\+\_\+amour\+Class}
+\item 
+\mbox{\Hypertarget{classICharacter_a41cb0c4ccd12d48bc03caa28cc0253da}\label{classICharacter_a41cb0c4ccd12d48bc03caa28cc0253da}} 
+int {\bfseries c\+\_\+initiative}
+\item 
+\mbox{\Hypertarget{classICharacter_a91969343570af2f3cce0999bf0d87623}\label{classICharacter_a91969343570af2f3cce0999bf0d87623}} 
+int {\bfseries c\+\_\+speed}
+\item 
+\mbox{\Hypertarget{classICharacter_a02ffac47fb753dbf8d340550b1de0b81}\label{classICharacter_a02ffac47fb753dbf8d340550b1de0b81}} 
+string {\bfseries c\+\_\+party}
+\item 
+\mbox{\Hypertarget{classICharacter_a3717cdf0ae117530170808b6a3e99b53}\label{classICharacter_a3717cdf0ae117530170808b6a3e99b53}} 
+string {\bfseries c\+\_\+name}
+\item 
+\mbox{\Hypertarget{classICharacter_a2ec2ea4992ed7ad4f30abe605d74ac39}\label{classICharacter_a2ec2ea4992ed7ad4f30abe605d74ac39}} 
+\mbox{\hyperlink{classsimpleWeapon}{simple\+Weapon}} {\bfseries c\+\_\+primary\+Weapon}
+\item 
+\mbox{\Hypertarget{classICharacter_ae9c696c504a12a6d7e80b9566a45af51}\label{classICharacter_ae9c696c504a12a6d7e80b9566a45af51}} 
+\mbox{\hyperlink{classsimpleWeapon}{simple\+Weapon}} {\bfseries c\+\_\+secondary\+Weapon}
+\item 
+\mbox{\Hypertarget{classICharacter_af8c0beecfa44670eccf736f42f120e8c}\label{classICharacter_af8c0beecfa44670eccf736f42f120e8c}} 
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classIRace}{IRace}} $>$ {\bfseries c\+\_\+race}
+\item 
+\mbox{\Hypertarget{classICharacter_a5eae3a7e232f9d048a4881648f1820ff}\label{classICharacter_a5eae3a7e232f9d048a4881648f1820ff}} 
+int {\bfseries c\+\_\+strength}
+\item 
+\mbox{\Hypertarget{classICharacter_a0e03b8a9d09c51c930cba0eab466f989}\label{classICharacter_a0e03b8a9d09c51c930cba0eab466f989}} 
+int {\bfseries c\+\_\+dexterity}
+\item 
+\mbox{\Hypertarget{classICharacter_a387ca5a749f0f57bb73c3c043670a633}\label{classICharacter_a387ca5a749f0f57bb73c3c043670a633}} 
+int {\bfseries c\+\_\+constitution}
+\item 
+\mbox{\Hypertarget{classICharacter_a530618e9ef9910e92b412cef745dea07}\label{classICharacter_a530618e9ef9910e92b412cef745dea07}} 
+int {\bfseries c\+\_\+intelligencem}
+\item 
+\mbox{\Hypertarget{classICharacter_a253c79e49925d98eec2ae5c054eddeb4}\label{classICharacter_a253c79e49925d98eec2ae5c054eddeb4}} 
+int {\bfseries c\+\_\+wisdom}
+\item 
+\mbox{\Hypertarget{classICharacter_a3ae31fc4c9808df130ef64d07f9a489e}\label{classICharacter_a3ae31fc4c9808df130ef64d07f9a489e}} 
+int {\bfseries c\+\_\+charisma}
+\item 
+\mbox{\Hypertarget{classICharacter_ab3900e9cc15e2af3d35b49218ecc9486}\label{classICharacter_ab3900e9cc15e2af3d35b49218ecc9486}} 
+vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classIItem}{IItem}} $>$ $>$ {\bfseries c\+\_\+inventory}
+\item 
+\mbox{\Hypertarget{classICharacter_abeb3c36bed723ddf36fd00a077fe1ef6}\label{classICharacter_abeb3c36bed723ddf36fd00a077fe1ef6}} 
+int {\bfseries c\+\_\+level}
+\item 
+\mbox{\Hypertarget{classICharacter_ae4a8fae1584f04e3f43321b5acf79241}\label{classICharacter_ae4a8fae1584f04e3f43321b5acf79241}} 
+int {\bfseries c\+\_\+\+XP}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+ICharacter.\+h\item 
+ICharacter.\+cpp\end{DoxyCompactItemize}

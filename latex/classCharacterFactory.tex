@@ -1,0 +1,43 @@
+\hypertarget{classCharacterFactory}{}\doxysection{Character\+Factory Class Reference}
+\label{classCharacterFactory}\index{CharacterFactory@{CharacterFactory}}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCharacterFactory_ad10d5f883acbdd70c6040ce88b6bf3d3}\label{classCharacterFactory_ad10d5f883acbdd70c6040ce88b6bf3d3}} 
+enum {\bfseries class\+Type} \{ {\bfseries Wizard\+Type}
+, {\bfseries Cleric\+Type}
+, {\bfseries Rogue\+Type}
+, {\bfseries Fighter\+Type}
+ \}
+\item 
+\mbox{\Hypertarget{classCharacterFactory_a10f172c1aaf81d24632525d216eb27b9}\label{classCharacterFactory_a10f172c1aaf81d24632525d216eb27b9}} 
+enum {\bfseries race\+Type} \{ {\bfseries Elf\+Type}
+, {\bfseries Human\+Type}
+, {\bfseries Dwarf\+Type}
+, {\bfseries Halfling\+Type}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCharacterFactory_a8cb9c053dd93cb200b846b2017c937c1}\label{classCharacterFactory_a8cb9c053dd93cb200b846b2017c937c1}} 
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classICharacter}{ICharacter}} $>$ {\bfseries Create\+Class} (class\+Type classT, race\+Type raceT, string nameT)
+\item 
+\mbox{\Hypertarget{classCharacterFactory_a1ac60b1fb21674e9f4d64fe9e8ad4275}\label{classCharacterFactory_a1ac60b1fb21674e9f4d64fe9e8ad4275}} 
+{\bfseries Character\+Factory} (const \mbox{\hyperlink{classCharacterFactory}{Character\+Factory}} \&)=delete
+\item 
+\mbox{\Hypertarget{classCharacterFactory_a840a43548049700181859384b86306ed}\label{classCharacterFactory_a840a43548049700181859384b86306ed}} 
+\mbox{\hyperlink{classCharacterFactory}{Character\+Factory}} \& {\bfseries operator=} (const \mbox{\hyperlink{classCharacterFactory}{Character\+Factory}} \&)=delete
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCharacterFactory_ae1726cbed285ed829cbc96c3b64cf608}\label{classCharacterFactory_ae1726cbed285ed829cbc96c3b64cf608}} 
+static \mbox{\hyperlink{classCharacterFactory}{Character\+Factory}} \& {\bfseries Get\+Character\+Factory} ()
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Character\+Factory.\+h\item 
+Character\+Factory.\+cpp\end{DoxyCompactItemize}

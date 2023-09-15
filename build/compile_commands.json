@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build",
+  "command": "/usr/bin/g++ -Dapplibrary_EXPORTS -g -fPIC -std=c++17 -o CMakeFiles/applibrary.dir/Wizard.cpp.o -c \"/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/Wizard.cpp\"",
+  "file": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/Wizard.cpp"
+},
+{
+  "directory": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build",
+  "command": "/usr/bin/g++ -Dapplibrary_EXPORTS -g -fPIC -std=c++17 -o CMakeFiles/applibrary.dir/Cleric.cpp.o -c \"/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/Cleric.cpp\"",
+  "file": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/Cleric.cpp"
+},
+{
+  "directory": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build",
+  "command": "/usr/bin/g++ -Dapplibrary_EXPORTS -g -fPIC -std=c++17 -o CMakeFiles/applibrary.dir/Fighter.cpp.o -c \"/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/Fighter.cpp\"",
+  "file": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/Fighter.cpp"
+},
+{
+  "directory": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build",
+  "command": "/usr/bin/g++ -Dapplibrary_EXPORTS -g -fPIC -std=c++17 -o CMakeFiles/applibrary.dir/Rogue.cpp.o -c \"/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/Rogue.cpp\"",
+  "file": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/Rogue.cpp"
+},
+{
+  "directory": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build",
+  "command": "/usr/bin/g++ -Dapplibrary_EXPORTS -g -fPIC -std=c++17 -o CMakeFiles/applibrary.dir/Party.cpp.o -c \"/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/Party.cpp\"",
+  "file": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/Party.cpp"
+},
+{
+  "directory": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build",
+  "command": "/usr/bin/g++ -Dapplibrary_EXPORTS -g -fPIC -std=c++17 -o CMakeFiles/applibrary.dir/IRace.cpp.o -c \"/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/IRace.cpp\"",
+  "file": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/IRace.cpp"
+},
+{
+  "directory": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build",
+  "command": "/usr/bin/g++ -Dapplibrary_EXPORTS -g -fPIC -std=c++17 -o CMakeFiles/applibrary.dir/ICharacter.cpp.o -c \"/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/ICharacter.cpp\"",
+  "file": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/ICharacter.cpp"
+},
+{
+  "directory": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build",
+  "command": "/usr/bin/g++ -Dapplibrary_EXPORTS -g -fPIC -std=c++17 -o CMakeFiles/applibrary.dir/CharacterFactory.cpp.o -c \"/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/CharacterFactory.cpp\"",
+  "file": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/CharacterFactory.cpp"
+},
+{
+  "directory": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build",
+  "command": "/usr/bin/g++ -Dapplibrary_EXPORTS -g -fPIC -std=c++17 -o CMakeFiles/applibrary.dir/Die.cpp.o -c \"/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/Die.cpp\"",
+  "file": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/Die.cpp"
+},
+{
+  "directory": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build",
+  "command": "/usr/bin/g++ -g -std=c++17 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runTests.dir/tests.cpp.o -c \"/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/tests.cpp\"",
+  "file": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/tests.cpp"
+},
+{
+  "directory": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build",
+  "command": "/usr/bin/g++ -g -std=c++17 -o CMakeFiles/runMain.dir/PartyAttack.cpp.o -c \"/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/PartyAttack.cpp\"",
+  "file": "/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/PartyAttack.cpp"
+}
+]

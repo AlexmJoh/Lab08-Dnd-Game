@@ -7,12 +7,12 @@ find_package(Threads REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 add_compile_options(-std=c++17)  
  
-add_library (applibrary SHARED BattleShip.cpp Cruiser.cpp Fleet.cpp IRace.cpp IShip.cpp ShipFactory.cpp Zerg.cpp Human.cpp)
+add_library (applibrary SHARED Wizard.cpp Cleric.cpp Fighter.cpp Rogue.cpp Party.cpp IRace.cpp ICharacter.cpp CharacterFactory.cpp Die.cpp)
  
 # Link runTests with what we want to test and the GTest and pthread library
 add_executable(runTests tests.cpp)
 target_link_libraries(runTests ${GTEST_LIBRARIES} pthread applibrary) 
 
-add_executable(runMain FleetAttack.cpp)
+add_executable(runMain PartyAttack.cpp)
 target_link_libraries(runMain applibrary)
 

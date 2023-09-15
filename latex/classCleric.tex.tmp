@@ -1,0 +1,56 @@
+\hypertarget{classCleric}{}\doxysection{Cleric Class Reference}
+\label{classCleric}\index{Cleric@{Cleric}}
+
+
+Inheritance diagram for Cleric\+:
+% FIG 0
+
+
+Collaboration diagram for Cleric\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCleric_a093a4f80477c5dced0aea6216b8305f5}\label{classCleric_a093a4f80477c5dced0aea6216b8305f5}} 
+{\bfseries Cleric} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classIRace}{IRace}} $>$ race, string name)
+\item 
+\mbox{\Hypertarget{classCleric_a8ac3b727179f3210a3c011456fadb018}\label{classCleric_a8ac3b727179f3210a3c011456fadb018}} 
+virtual int {\bfseries Get\+Hit\+Points} () override
+\item 
+\mbox{\Hypertarget{classCleric_a9a5e60b441c582956cc396704a5e2929}\label{classCleric_a9a5e60b441c582956cc396704a5e2929}} 
+virtual int {\bfseries Get\+Amour\+Class} () override
+\item 
+\mbox{\Hypertarget{classCleric_ac6fa056e8d253e87c2c51712c4dcd4ce}\label{classCleric_ac6fa056e8d253e87c2c51712c4dcd4ce}} 
+virtual int {\bfseries Get\+Initiative} () override
+\item 
+\mbox{\Hypertarget{classCleric_ad11130ccb60cdf2d3a535d38d9908d04}\label{classCleric_ad11130ccb60cdf2d3a535d38d9908d04}} 
+virtual int {\bfseries Attack\+Roll} () override
+\item 
+\mbox{\Hypertarget{classCleric_a2928aada575477ebd8501ef878f10ccc}\label{classCleric_a2928aada575477ebd8501ef878f10ccc}} 
+virtual void {\bfseries Set\+Party} (string party) override
+\item 
+\mbox{\Hypertarget{classCleric_a1a64c72a55e421578612ee6ec69c56c9}\label{classCleric_a1a64c72a55e421578612ee6ec69c56c9}} 
+virtual string {\bfseries Get\+Party} () override
+\item 
+\mbox{\Hypertarget{classCleric_aca1c5eeac62f7b0b3461a2acae04ed8c}\label{classCleric_aca1c5eeac62f7b0b3461a2acae04ed8c}} 
+virtual void {\bfseries Set\+Name} (string name) override
+\item 
+\mbox{\Hypertarget{classCleric_ad67686f87ec80bc9311cd017f781284c}\label{classCleric_ad67686f87ec80bc9311cd017f781284c}} 
+virtual string {\bfseries Get\+Name} () override
+\item 
+\mbox{\Hypertarget{classCleric_aaf69d085bd047fd72cbdc6bf2045f098}\label{classCleric_aaf69d085bd047fd72cbdc6bf2045f098}} 
+virtual int {\bfseries Attack\+Damage} (int weapon\+Slot) override
+\item 
+\mbox{\Hypertarget{classCleric_a65575eb10b133b508631a3498d10273d}\label{classCleric_a65575eb10b133b508631a3498d10273d}} 
+int {\bfseries Attack\+Player} (int weapon\+Slot, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classICharacter}{ICharacter}} $>$ target) override
+\item 
+\mbox{\Hypertarget{classCleric_a8c3359053e9ddd34305ed622bb84993f}\label{classCleric_a8c3359053e9ddd34305ed622bb84993f}} 
+virtual void {\bfseries Take\+Damage} (int damage) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Cleric.\+h\item 
+Cleric.\+cpp\end{DoxyCompactItemize}

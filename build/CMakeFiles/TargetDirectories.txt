@@ -1,0 +1,5 @@
+/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build/CMakeFiles/applibrary.dir
+/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build/CMakeFiles/runTests.dir
+/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build/CMakeFiles/runMain.dir
+/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build/CMakeFiles/edit_cache.dir
+/home/alex/Documents/Data Structures Labs/Lab(8)/Lab8.7/build/CMakeFiles/rebuild_cache.dir
